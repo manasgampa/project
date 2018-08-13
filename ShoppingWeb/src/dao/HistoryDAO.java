@@ -6,10 +6,10 @@ import model.History;
 
 public interface HistoryDAO {
 	
-	//thêm mới một lịch sử mua hàng.
+	//thÃªm má»›i má»™t lá»‹ch sá»­ mua hÃ ng.
 	public void addHistory(History h);
-	
-	//lọc lịch sử của khách hàng.
+	//this is a project
+	//lá»�c lá»‹ch sá»­ cá»§a khÃ¡ch hÃ ng.
 	public List<History> getList(int user_id);
 
 }
